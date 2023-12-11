@@ -1,0 +1,27 @@
+{
+  "name": "bbddta42",
+  "version": "1.0.0",
+  "description": "Base de datos mockeada ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "buil": "json-server --watch db/database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordimall/jmg-tsys-ta42-bd-json-111223.git"
+  },
+  "keywords": [
+    "json",
+    "server"
+  ],
+  "author": "Jordi Mallafré Gázquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordimall/jmg-tsys-ta42-bd-json-111223/issues"
+  },
+  "homepage": "https://github.com/jordimall/jmg-tsys-ta42-bd-json-111223#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
