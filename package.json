@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "buil": "json-server --watch db/database.json"
+    "build": "ng build",
+    "server": "json-server --watch db/database.json"
   },
   "repository": {
     "type": "git",
