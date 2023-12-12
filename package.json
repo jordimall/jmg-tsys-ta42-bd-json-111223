@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "ng build",
-    "server": "json-server --watch db/database.json --port 8000"
+    "start": "json-server --watch db/database.json"
   },
   "repository": {
     "type": "git",
